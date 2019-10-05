@@ -1,0 +1,101 @@
+:root{
+    --speed: 1000ms;
+}
+
+html body{
+    padding:0;
+    margin:0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 100%;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.container{
+    height: 100%;
+    width:100%;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 50% 50%;
+    transition: 2s;
+}
+
+
+
+.text{
+    margin: auto;
+  width: 50%;
+  order: 3px solid green;
+  padding: 20px;
+   margin-top:20%;
+   align-items: center;
+   display:flex;
+   flex-direction: column;
+}
+
+.button{
+    text-decoration: none;
+    color: white;
+    border: white solid 2px;
+    padding: 20px 60px;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+
+h1{
+    color: white;
+    font-size: 40px;
+}
+
+
+
+
+.one{
+    background: url("coder.jpg") center center no-repeat;
+    background-size: cover;
+}
+.two{
+    background: url("art.jpg") center center no-repeat;
+    background-size: cover;
+}
+.three{
+    background: url("design.jpg") center center no-repeat;
+    background-size: cover;
+}
+.four{
+    background: url("nego.jpg") center center no-repeat;
+    background-size: cover;
+}
+
+.hover-one  {
+    display:grid;
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 60% 40%;
+    transition: 2s;
+}
+
+.hover-two  {
+   display:grid;
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 60% 40%;
+    transition: 2s;
+}
+
+.hover-three {
+
+    grid-template-columns: 60% 40%;
+    grid-template-rows: 40% 60%;
+    transition: 2s;
+}
+
+.hover-four{
+    
+    grid-template-columns: 40% 60%;
+    grid-template-rows: 40% 60%;
+    transition: 2s;
+}
+
+
+container {
+    transition: 1000ms all ease-in-out;
+}
